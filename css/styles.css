@@ -1,14 +1,24 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
 nav {
-  padding: 50px 50px 0 50px;
+  padding: 50px 50px 0 80px;
 }
 
 h2 {
   font-weight: 700;
 }
 
-body {
-  margin: 0 auto;
-  padding: 0;
+ul {
+  margin: 0 0 0 15px;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .container-fluid {
@@ -18,12 +28,13 @@ body {
 
 .nav-links {
   color: black;
+  font-size: 18px;
   padding: 0 100px 0 0;
   text-decoration: none;
 }
 
 #intro-container {
-  padding: 100px 50px;
+  padding: 160px 100px;
 }
 
 .intro-title {
@@ -32,7 +43,7 @@ body {
 }
 
 .intro-description {
-  font-size: 20px;
+  font-size: 22px;
   padding: 20px 60px 0 0;
 }
 
@@ -44,11 +55,11 @@ body {
   max-width: 300px;
 }
 
-#tech-container {
+#exp-info-container {
   background-color: #4a0ab4;
   font-size: 14px;
   color: #ffffff;
-  padding: 15px;
+  padding: 50px 80px;
 }
 
 .section-title {
@@ -56,10 +67,21 @@ body {
   padding: 30px 30px 20px 30px;
 }
 .section-text {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   letter-spacing: 1px;
   padding: 30px;
+}
+
+.button {
+  border-style: solid;
+  border-color: #01a7c2;
+  border-radius: 1em;
+  background: #01a7c2;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
