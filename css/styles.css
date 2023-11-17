@@ -1,0 +1,70 @@
+nav {
+  padding: 50px 50px 0 50px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  color: black;
+  padding: 0 100px 0 0;
+  text-decoration: none;
+}
+
+#intro-container {
+  padding: 100px 50px;
+}
+
+.intro-title {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.intro-description {
+  font-size: 20px;
+  padding: 20px 60px 0 0;
+}
+
+.profile-pic-container {
+  text-align: center;
+}
+.profile-pic {
+  box-shadow: 20px -20px #d64c4b;
+  max-width: 300px;
+}
+
+#tech-container {
+  background-color: #4a0ab4;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.section-title {
+  letter-spacing: 2px;
+  padding: 30px 30px 20px 30px;
+}
+.section-text {
+  font-weight: 200;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 30px;
+}
+
+@media (max-width: 767px) {
+  .profile-pic-container {
+    padding: 60px 0 0 0;
+    text-align: center;
+  }
+}
