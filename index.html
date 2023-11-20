@@ -19,10 +19,18 @@
       <div class="row">
         <div class="col-sm-12 col-lg-12">
           <nav>
-            <a class="nav-links" href="#inicio">Inicio</a>
-            <a class="nav-links" href="#sobremi">Sobre mí</a>
-            <a class="nav-links" href="#proyectos">Poyectos</a>
-            <a class="nav-links" href="#contacto">Contacto</a>
+            <img
+              class="menu-icon"
+              src="img/menu-icon.png"
+              alt="Icono menu"
+              onclick="toggleMenu()"
+            />
+            <div id="nav-links-container">
+              <a class="nav-links" href="#inicio">Inicio</a>
+              <a class="nav-links" href="#sobremi">Sobre mí</a>
+              <a class="nav-links" href="#proyectos">Proyectos</a>
+              <a class="nav-links" href="#contacto">Contacto</a>
+            </div>
           </nav>
         </div>
       </div>
@@ -128,7 +136,7 @@
               navegación desplegable, audios y vídeos. Empleo de principios de
               comunicación visual como equilibrio, compensación y peso prestando
               también atención a elementos como iconos, colores y tipografías.
-              Tecnologías utilizadas: Bootstrap, HTML, CS y JQuey.
+              Tecnologías utilizadas: Bootstrap, HTML, CSS y JQuey.
             </p>
             <div class="row" id="button-container">
               <div class="col-sm-12 col-md-12 col-lg-12">
@@ -146,36 +154,36 @@
       <footer>
         <div class="row" id="purple-info-container">
           <div class="col-sm-12 col-md-12 col-lg-12">
-            <h2 class="section-title>">Contacto</h2>
-            <br />
-            <p class="contact-info">
-              <img
-                class="contact-icon"
-                src="img/phone-icon.png"
-                alt="Icono telefono"
-              />
-              (+34) 633 92 15 20
-            </p>
-            <p class="contact-info">
-              <img
-                class="contact-icon"
-                src="img/email-icon.png"
-                alt="Icono email"
-              />gsanchez.coral@gmail.com
-            </p>
-            <p class="contact-info">
-              <a
-                class="contact-links"
-                href="img/cv-coral-gutierrez-sanchez.pdf"
-                target="_blank"
-                ><img
+            <div class="contact-info-container">
+              <h2 class="section-title>">Contacto</h2>
+              <br />
+              <p class="contact-info">
+                <img
                   class="contact-icon"
-                  src="img/cv-icon.png"
-                  alt="Icono CV"
-                />
-                CV extendido</a
-              >
-            </p>
+                  src="img/phone-icon.png"
+                  alt="Icono telefono"
+                />(+34) 633 92 15 20
+              </p>
+              <p class="contact-info">
+                <img
+                  class="contact-icon"
+                  src="img/email-icon.png"
+                  alt="Icono email"
+                />gsanchez.coral@gmail.com
+              </p>
+              <p class="contact-info">
+                <a
+                  class="contact-links"
+                  href="img/cv-coral-gutierrez-sanchez.pdf"
+                  target="_blank"
+                  ><img
+                    class="contact-icon"
+                    src="img/cv-icon.png"
+                    alt="Icono CV"
+                  />CV extendido</a
+                >
+              </p>
+            </div>
           </div>
         </div>
         <div class="row">
