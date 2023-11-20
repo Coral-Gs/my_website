@@ -109,6 +109,7 @@ li {
 
 .project-img {
   max-width: 500px;
+  margin: 10px;
 }
 
 .contact-icon {
@@ -152,6 +153,13 @@ li {
   }
   #button-container {
     margin: 60px 0 0 15px;
-    text-align: left;
+  }
+
+  .profile-pic {
+    max-width: 280px;
+  }
+  .project-img {
+    margin: 10px;
+    max-width: 400px;
   }
 }
