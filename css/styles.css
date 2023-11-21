@@ -37,11 +37,6 @@ li {
   text-decoration: none;
 }
 
-.menu-icon {
-  display: none;
-  max-width: 40px;
-}
-
 /*Estilos de la presentación*/
 
 #intro-container {
@@ -164,30 +159,18 @@ li {
 }
 
 @media (max-width: 767px) {
-  /* Oculta las opciones del menú en pantallas pequeñas */
-  .nav-links {
-    display: none;
-  }
-
   /* Muestra el icono de menú en pantallas pequeñas */
-  .nav-links.show {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 70px; /* Ajusta la posición según sea necesario */
-    left: 0;
-    width: 100%;
-    background-color: #333;
-  }
 
-  /* Estilo del icono de menú */
-  .menu-icon {
-    display: block;
-    cursor: pointer;
+  nav {
+    padding: 20px 5px 0 5px;
+  }
+  .nav-links {
+    font-size: 15px;
+    padding: 15px;
   }
 
   #intro-container {
-    padding: 40px 25px;
+    padding: 40px 30px;
   }
 
   .intro-description {
@@ -201,7 +184,7 @@ li {
   }
 
   .profile-pic {
-    max-width: 160px;
+    max-width: 70%;
   }
 
   #button-container {
@@ -223,6 +206,7 @@ li {
   }
   .section-text {
     font-size: 15px;
+    text-align: left;
   }
   .project-img {
     max-width: 90%;
