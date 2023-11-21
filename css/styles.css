@@ -99,7 +99,7 @@ li {
 /*Estilos de los botones*/
 
 #button-container {
-  margin: 50px;
+  padding: 0 40px 40px;
   text-align: center;
 }
 
@@ -188,7 +188,7 @@ li {
   }
 
   #button-container {
-    margin: 60px 0 0 15px;
+    margin: 30px 0 15px 15px;
   }
 
   .project-img {
@@ -204,6 +204,7 @@ li {
     font-size: 15px;
     padding: 40px 10px;
   }
+
   .section-text {
     font-size: 15px;
     text-align: left;
